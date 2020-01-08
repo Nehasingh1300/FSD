@@ -1,7 +1,27 @@
-//https://www.w3schools.com/css/css_grid.asp
-//https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-gap
+<!--https://www.w3schools.com/css/css_grid.asp
+https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-gap
 
-<!DOCTYPE html>
+CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows.
+
+* grid-template-rows: 11% 70% auto; //manages the length of rows
+* grid-template-columns: 20% auto; //manages the width of columns
+* grid-template-areas: helps to define the area needed for particular region
+* auto helps in mnaging the area left and utilising that area
+* grid-template-columns: repeat({4}number of time to repeat , auto{what to repeat}); REPEAT reduces code writing work 
+* The fr unit allows you to set the size of a track as a fraction of the free space of the grid container. For example, this will set each item to one third the width of the grid container: grid-template-columns: 1fr 1fr 1fr;
+* grid-template: 90px  100px / 70px auto auto; // makes work easier as it take width of row and column in one go
+* grid-column-gap: 10px; //gaps
+* grid-row-gap: 15px; //gaps
+* grid-gap: row column;
+* justify-items: start | end | center | stretch; //item's postition horizontally
+* align-items: start | end | center | stretch; //item's position vertically
+* justify-content: start | end | center | stretch | space-around | space-between | space-evenly; //the total size of your grid might be less than the size of its grid container so we need to mention the position of grid item  {coulnt really found any useful use}
+align-content: start | end | center | stretch | space-around | space-between | space-evenly; 
+* <div class="grid-container" style="grid-auto-flow: row;" //if you want something in sequence of row or in column
+
+-->
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,6 +34,12 @@
 		.nav { grid-area: nav; }
 		.section{ grid-area: section; }
 		.footer { grid-area: footer; }	
+		.gridcontainer{
+			grid-template-rows: 11% 70% auto;
+			grid-template-columns: 20% auto;
+			justify-items: stretch;
+			align-items: stretch;
+		}
 		.gridcontainer{
 			display: grid;
 			grid-template-areas: 
@@ -28,7 +54,7 @@
 		.gridcontainer > div {
 		  background-color: white;
 		  text-align: center;
-		  padding: 20px 0;
+		  padding: 10px ;
 		  font-size: 30px;
 		}
 	</style>
