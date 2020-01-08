@@ -1,0 +1,110 @@
+<!--https://www.w3schools.com/css/css_grid.asp
+https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-gap
+
+CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows.
+
+* grid-template-rows: 11% 70% auto; //manages the length of rows
+* grid-template-columns: 20% auto; //manages the width of columns
+* grid-template-areas: helps to define the area needed for particular region
+* auto helps in mnaging the area left and utilising that area
+* grid-template-columns: repeat({4}number of time to repeat , auto{what to repeat}); REPEAT reduces code writing work 
+* The fr unit allows you to set the size of a track as a fraction of the free space of the grid container. For example, this will set each item to one third the width of the grid container: grid-template-columns: 1fr 1fr 1fr;
+* grid-template: 90px  100px / 70px auto auto; // makes work easier as it take width of row and column in one go
+* grid-column-gap: 10px; //gaps
+* grid-row-gap: 15px; //gaps
+* grid-gap: row column;
+* justify-items: start | end | center | stretch; //item's postition horizontally
+* align-items: start | end | center | stretch; //item's position vertically
+* justify-content: start | end | center | stretch | space-around | space-between | space-evenly; //the total size of your grid might be less than the size of its grid container so we need to mention the position of grid item  {coulnt really found any useful use}
+align-content: start | end | center | stretch | space-around | space-between | space-evenly; 
+* <div class="grid-container" style="grid-auto-flow: row;" //if you want something in sequence of row or in column
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GRID USAGE</title>
+	<style>
+		img{
+			float: right;
+		}
+		.header { grid-area: header; }
+		.nav { grid-area: nav; }
+		.section{ grid-area: section; }
+		.footer { grid-area: footer; }	
+		.gridcontainer{
+			grid-template-rows: 11% 70% auto;
+			grid-template-columns: 20% auto;
+			justify-items: stretch;
+			align-items: stretch;
+		}
+		.gridcontainer{
+			display: grid;
+			grid-template-areas: 
+				'header header header header header'
+				'nav section section section section'
+				'nav section section section section'
+				'nav footer footer footer footer';
+			grid-gap: 10px;
+			background-color: #2196F3;
+  			padding: 10px;
+		}
+		.gridcontainer > div {
+		  background-color: white;
+		  text-align: center;
+		  padding: 10px ;
+		  font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="gridcontainer">
+		<div class="header">
+			<h1>Kubernetes through Azure (BASICS)</h1>
+		</div>
+		<div class="section">
+			<h2>Some Definations</h2>
+			<ol>
+				<li>
+					<p>
+						<h3>Node</h3>
+						<img src="pineapple.png">
+						A node is a point of intersection/connection within a network. In an environment where all devices are accessible through the network, these devices are all considered nodes. The concept of nodes works on several levels, but the big-picture view defines nodes as the major centers through which Internet traffic is typically routed. This usage is somewhat confusing, as these same Internet nodes are also referred to as Internet hubs.
+					</p>
+				</li>
+
+				<li>
+					<h3>Cluster Orchestration</h3>
+					<p>
+						Clusters are a group of servers, managing and scheduling of clusters is Cluster Orchestration.
+					</p>
+				</li>
+		 	</ol>
+
+		 	<h2>Use of <a href="Kubernetes.html">Kubernetes</a></h2>
+		 	<p>
+		 		With modern web services, users expect applications to be available 24/7, and developers expect to deploy new versions of those applications several times a day. Containerization helps package software to serve these goals, enabling applications to be released and updated in an easy and fast way without downtime. Kubernetes helps you make sure those containerized applications run where and when you want, and helps them find the resources and tools they need to work. Kubernetes is a production-ready, open source platform designed with Google's accumulated experience in container orchestration, combined with best-of-breed ideas from the community.
+			</p>
+		</div>
+		<div class="nav">
+			<h2><a href="home.html">HOME</a></h2>
+		    <h2><a href=#>Github</a></h2>
+		    <h2><a href="Linux1.html">Linux Commands</a></h2>
+		    <h2><a href="html.html">HTML</a></h2>
+		    <h2><a href=#>CSS</a></h2>
+		    <h2><a href="javascript.html">Java script</a></h2>
+		    <h2><a href=#>PHP</a></h2>
+		    <h2><a href=#>Ruby</a></h2>
+		    <h2><a href=#>Python</a></h2>
+		    <h2><a href="azureCloud.html">Azure</a></h2>
+		    <h2><a href="Kubernetes Through Azure [Basics].html">Kubernetes Through Azure [Basics]</a></h2>
+		</div>
+		<div class="footer">
+			<p>END OF LECTURE</p>
+		</div>
+		
+	</div>
+</body>
+</html>
