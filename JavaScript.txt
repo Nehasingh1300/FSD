@@ -1,0 +1,80 @@
+
+
+JavaScript code must be inserted between <script> and </script> tags.
+
+JavaScript HTML methods 
+          * getElementById()
+          
+"src" Attribute is used to specify the URL of external JavaScript file
+         * <script src="myScript.js"></script>
+      
+JavaScript Display Possibilities
+          Writing into an HTML element, using innerHTML               //document.getElementById("demo").innerHTML = 5 + 6;
+          Writing into the HTML output using document.write().        //document.write(5 + 6);
+          Writing into an alert box, using window.alert().            //window.alert(5 + 6);
+          Writing into the browser console, using console.log().      //console.log(5 + 6); function func() { return (5 * 19); } console.log(func()); 
+          
+JavaScript Keywords
+          Keyword	Description
+          break	          Terminates a switch or a loop
+          continue	      Jumps out of a loop and starts at the top
+          debugger	      Stops the execution of JavaScript, and calls (if available) the debugging function
+          do ... while	  Executes a block of statements, and repeats the block, while a condition is true
+          for	            Marks a block of statements to be executed, as long as a condition is true
+          function	      Declares a function
+          if ... else	    Marks a block of statements to be executed, depending on a condition
+          return	        Exits a function
+          switch	        Marks a block of statements to be executed, depending on different cases
+          try ... catch	  Implements error handling to a block of statements
+          var           	Declares a variable
+          
+arithmetic operators ( + - * / )
+assignment operator ( = )
+Code after double slashes // or between /* and */ is treated as a comment.
+Names can also begin with $ and _ 
+
+Operator	Description
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+
+Operator	Example	Same As
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+<<=	x <<= y	x = x << y
+>>=	x >>= y	x = x >> y
+>>>=	x >>>= y	x = x >>> y
+&=	x &= y	x = x & y
+^=	x ^= y	x = x ^ y
+|=	x |= y	x = x | y
+**=	x **= y	x = x ** y
+
+JavaScript Data Types
+          JavaScript variables can hold many data types: numbers, strings, objects and more:
+          var length = 16;                               // Number
+          var lastName = "Johnson";                      // String
+          var x = {firstName:"John", lastName:"Doe"};    // Object
+
+JavaScript Arrays
+          var cars = ["Saab", "Volvo", "BMW"];
+
+JavaScript Objects
+          var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+
+
+
+
+
+
+
+
