@@ -69,12 +69,6 @@ JavaScript Arrays
 
 JavaScript Objects
           var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
-
-
-
-
-
-
-
-
-
+          * accessing objects : objectName.propertyName
+          * "this" Keyword : this refers to the "owner"; Eg : this.firstName + " " + this.lastName;
+          * Do Not Declare Strings, Numbers, and Booleans as Objects!
