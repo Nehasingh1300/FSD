@@ -72,3 +72,101 @@ JavaScript Objects
           * accessing objects : objectName.propertyName
           * "this" Keyword : this refers to the "owner"; Eg : this.firstName + " " + this.lastName;
           * Do Not Declare Strings, Numbers, and Booleans as Objects!
+          
+JS EVENTS 
+onchange	         An HTML element has been changed
+onclick	         The user clicks an HTML element
+onmouseover	The user moves the mouse over an HTML element
+onmouseout	The user moves the mouse away from an HTML element
+onkeydown	The user pushes a keyboard key
+onload	         The browser has finished loading the page
+
+JavaScript Strings
+A JavaScript string is zero or more characters written inside quotes.
+ var x = "John Doe";
+\b	Backspace
+\f	Form Feed
+\n	New Line
+\r	Carriage Return
+\t	Horizontal Tabulator
+\v	Vertical Tabulator
+
+String Methods and Properties
+String Length
+         var sln = txt.length;
+         
+Finding a String in a String
+         var pos = str.indexOf("locate");
+
+JavaScript counts positions from zero.
+         0 is the first position in a string, 1 is the second, 2 is the third ...
+         The lastIndexOf() method returns the index of the last occurrence of a specified text in a string:
+         var pos = str.lastIndexOf("locate");
+         Both indexOf(), and lastIndexOf() return -1 if the text is not found.
+
+The search() method cannot take a second start position argument.
+
+Extracting String Parts
+         There are 3 methods for extracting a part of a string:
+         slice(start, end)
+         substring(start, end)
+         substr(start, length)
+         The slice() Method
+                  
+                  slice() extracts a part of a string and returns the extracted part in a new string.
+                  The method takes 2 parameters: the start position, and the end position (end not included).
+                  This example slices out a portion of a string from position 7 to position 12 (13-1):
+                  Example
+                  var str = "Apple, Banana, Kiwi";
+                  var res = str.slice(7, 13);
+                  The result of res will be:
+                  Banana
+                  Remember: JavaScript counts positions from zero. First position is 0.
+
+                  The substring() Method
+                  substring() is similar to slice().
+                  The difference is that substring() cannot accept negative indexes.
+                  Example
+                  var str = "Apple, Banana, Kiwi";
+                  var res = str.substring(7, 13);
+                  The result of res will be:
+                  Banana
+                  If you omit the second parameter, substring() will slice out the rest of the string.
+
+                  Replacing String Content
+                  The replace() method replaces a specified value with another value in a string:
+                  Example
+                  str = "Please visit Microsoft!";
+                  var n = str.replace("Microsoft", "W3Schools");
+                  The replace() method does not change the string it is called on. It returns a new string.
+                  By default, the replace() method replaces only the first match:
+
+                  Converting to Upper and Lower Case
+                  A string is converted to upper case with toUpperCase():
+                  Example
+                  var text1 = "Hello World!";       // String
+                  var text2 = text1.toUpperCase();  // text2 is text1 converted to upper
+                  A string is converted to lower case with toLowerCase():
+
+                  String.trim()
+                  The trim() method removes whitespace from both sides of a string:
+                  Example
+                  var str = "       Hello World!        ";
+
+                  charAt(position)
+                  charCodeAt(position)
+                  Property access [ ]
+                  The charAt() Method
+                  The charAt() method returns the character at a specified index (position) in a string:
+                  Example
+                  var str = "HELLO WORLD";
+                  str.charAt(0);            // returns H
+                  The charCodeAt() Method
+                  The charCodeAt() method returns the unicode of the character at a specified index in a string:
+
+                  Converting a String to an Array
+                  A string can be converted to an array with the split() method:
+                  var txt = "a,b,c,d,e";   // String
+                  txt.split(",");          // Split on commas
+                  txt.split(" ");          // Split on spaces
+                  txt.split("|");          // Split on pipe
