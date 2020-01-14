@@ -1,5 +1,3 @@
-
-
 JavaScript code must be inserted between <script> and </script> tags.
 
 JavaScript HTML methods 
