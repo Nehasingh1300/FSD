@@ -1,0 +1,236 @@
+div{
+	color: black;
+	}
+
+#elements{
+	size: 4;
+	color: black;
+}
+body{
+	width: 98%;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+
+		body{
+			font-family: all
+		}
+
+		header{
+			padding: 0px;
+			text-align: center;
+  			font-size: 35px;
+  			color: blue;
+  			font-weight: bold;  			
+  			font-variant: normal;
+  			height: 30px;
+		}
+
+		nav {
+  			float: left;
+  			width: 96.8%;
+  			background: #e5ffe5;
+  			padding: 20px;
+  			height: 700px;
+		}
+
+  		section:break-after{
+  			content: "";
+  			display: table;
+  			clear: both;
+  			background-color: 	#e5ffe5;
+		}
+
+		form :active {
+ 			color: red;
+		}
+
+
+
+			fieldset{
+				height: 90%;
+				width: 90%;
+				font-family: sans-serif;
+			}
+
+			header{
+				font-stretch: ;
+				font-size: 10;
+				font-family: ;
+				font-style: italic;
+			}
+
+			article{
+				height: 100%;
+			}
+
+			footer{
+				padding-bottom: bold;
+			}
+
+			.Hheader{
+				padding: 5px;
+				text-align: center;
+	  			font-size: 35px;
+	  			color: white;
+	  			font-weight: bold;
+				font-variant: normal;
+			}
+
+			.signIn{
+			  background-color: black;
+			  border: none;
+			  color: white;
+			  /*text-align: center;*/
+			  text-decoration: none;
+			  font-size: 15px;
+			  cursor: pointer;
+			  border-radius: 4px;
+			  position: right;
+			  display: inline-block;
+			  font-weight: bold;
+			  left:90%;
+			}
+
+			.signIn{
+				position: relative;
+				left: 500px;
+			}
+
+			.img{
+				
+				left: 50px;
+				height:40; 
+				width:40;
+			}
+
+			.button{
+				  background-color: #ffffff;
+				  border: none;
+				  color: white;
+				  padding: 15px 32px;
+				  text-align: center;
+				  text-decoration: none;
+				  font-size: 16px;
+				  border-radius: 12px;
+				  position: relative;
+				  display: inline-block;
+				  padding: 0.618rem 1.618rem;
+				  cursor: pointer;
+				  color: #FFF;
+				  letter-spacing: 1px;
+				  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+				  background:#0066cc none repeat scroll 0% 0%;
+				  border: 1px solid #ffffcc;
+				  border-radius: 4px;
+				  box-shadow:
+				    0 1px 0 rgba(255, 255, 255, 0.25),
+				    0 1px 0 rgba(255, 255, 255, 0.25) inset,
+				    0 0 0 rgba(0, 0, 0, 0.5) inset,
+				    0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+				    0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+				    0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+
+				  transition: all 0.1s linear 0s;
+				  margin: 0.618rem;
+				}
+
+				.button:hover,
+				.button:focus {
+				  text-decoration: none;
+				  box-shadow:
+				    0 2px 5px rgba(0, 0, 0, 0.5),
+				    0 1px 0 rgba(255, 255, 255, 0.25) inset,
+				    0 0 0 rgba(0, 0, 0, 0.25) inset,
+				    0 20px 0 rgba(255, 255, 255, 0.03) inset,
+				    0 -20px 20px rgba(0, 0, 0, 0.15) inset,
+				    0 20px 20px rgba(255, 255, 255, 0.05) inset;
+				}
+				.button:active {
+				  box-shadow:
+				    0 1px 0 rgba(255, 255, 255, 0.25),
+				    0 1px 0 rgba(255, 255, 255, 0) inset,
+				    0 0 5px rgba(0, 0, 0, 0.5) inset,
+				    0 20px 0 rgba(255, 255, 255, 0.03) inset,
+				    0 -20px 20px rgba(0, 0, 0, 0.15) inset,
+				    0 20px 20px rgba(255, 255, 255, 0.05) inset;
+				}
+
+				.button::before {
+				  content: "";
+				  display: block;
+				  position: absolute;
+				  background:-moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+				  padding: x 12px;
+				  top: 0;
+				  left: 15%;
+				  height: 1px;
+				  width: 40%;
+				  box-shadow: 0 1px 5px rgba(255, 255, 255, 0.2);
+				  transition: all 0.3s ease-in-out 0s;
+				}
+
+				.button:active::before {
+				  opacity: 0;
+				}
+				.button:hover::before {
+				  left: 95%;
+				}
+
+img{
+	float: left;
+}
+
+		.gridcontainer{
+			display: grid;
+			grid-template-areas: 
+				'Hheader Hheader Hheader Hheader'
+				'nav nav nav nav nav'
+				'nav nav nav nav nav'
+				'Hfooter Hfooter Hfooter Hfooter';
+			background-color: black;
+  			align-items: center;
+		}
+		.gridcontainer > div {
+		  background-color: white;
+		  text-align: center;
+		  font-size: 30px;
+		}		
+
+		.head{
+			color: black;
+			float: center;
+		}
+
+		.heading{
+			float: center;
+			color: black;
+		}
+
+		.Time{
+			float: right;
+		}
+
+		.glow {
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
