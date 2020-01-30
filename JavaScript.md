@@ -35,7 +35,9 @@ continue
 
 
 **PopUp Box**
+
 **alert**
+
 **confirm**
 ```
 var txt;
@@ -46,6 +48,7 @@ if (r == true) {
   txt = "You pressed Cancel!";
 }
 ```
+
 **Prompt**
 ```
 var person = prompt("Please enter your name", "GithubUser");
@@ -56,6 +59,37 @@ if (person != null) {
 }
 ```
 
+## Functions
+**With parameters**
+**Without Parameter**
 
-        
-        
+### Built In Global Functions
+
+alert
+prompt
+confirm
+eval
+isFinite
+isNaN
+parseInt
+parseFloat
+Number
+escape
+unescape
+
+**Detailed work on events will be updated**
+
+
+ ## Objects
+
+**BuiltIn objects**
+String
+RegExp
+Boolean
+Number
+Array
+Math
+Date
+
+
+**Detailed work on BuiltIn Objects and user defined objects will be updated**
