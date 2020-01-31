@@ -1,19 +1,18 @@
 # FSD
 Tasks related to Full Stack Developer
 
-ROAD MAP: https://github.com/kamranahmedse/developer-roadmap
+## [ROAD MAP] (https://github.com/kamranahmedse/developer-roadmap)
 
-JANUARY 6, 2020
-FRONT END
-  HTML
-    Learn the basics (I already did in my repository : https://github.com/Nehasingh1300/Web-Developmnent/tree/html )
-    Forms and validation 
-    Conventions and Best Practices : 
-        Use Correct Document Type
-            Always declare the document type as the first line in your document:
-            <!DOCTYPE html>
-        
-        Use Lower Case Element Names
+JANUARY 6, 2020<br>
+FRONT END<br>
+  HTML<br>
+    Learn the basics (I already did in my [repository](https://github.com/Nehasingh1300/Web-Developmnent/tree/html) )<br>
+    <br>Forms and validation <br>
+    Conventions and Best Practices :<br> 
+        Use Correct Document Type<br>
+            Always declare the document type as the first line in your document:<br>
+            <!DOCTYPE html><br>
+        Use Lower Case Element Names<br>
             HTML5 allows mixing uppercase and lowercase letters in element names.
             We recommend using lowercase element names because:
             Mixing uppercase and lowercase names is bad
@@ -32,8 +31,7 @@ FRONT END
             <section>
               <p>This is a paragraph.</p>
             </section>
-
-        Close All HTML Elements
+        Close All HTML Elements<br>
             In HTML5, you don't have to close all elements (for example the <p> element).
             We recommend closing all HTML elements.
             Bad:
@@ -46,22 +44,20 @@ FRONT END
               <p>This is a paragraph.</p>
               <p>This is a paragraph.</p>
             </section>
-
-      Close Empty HTML Elements
+        Close Empty HTML Elements<br>
             In HTML5, it is optional to close empty elements.
-
-            Allowed:
+          Allowed:
             <meta charset="utf-8">
             Also Allowed:
             <meta charset="utf-8" />
             However, the closing slash (/) is REQUIRED in XHTML and XML.
 
-            If you expect XML software to access your page, it is a good idea to keep the closing slash!
+ If you expect XML software to access your page, it is a good idea to keep the closing slash!
 
-      Use Lower Case Attribute Names
+Use Lower Case Attribute Names
             HTML5 allows mixing uppercase and lowercase letters in attribute names.
 
-            We recommend using lowercase attribute names because:
+We recommend using lowercase attribute names because:
 
             Mixing uppercase and lowercase names is bad
             Developers normally use lowercase names (as in XHTML)
