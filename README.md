@@ -6,7 +6,7 @@ Tasks related to Full Stack Developer
 JANUARY 6, 2020<br>
 FRONT END<br>
   HTML<br>
-    Learn the basics (I already did in my [repository](https://github.com/Nehasingh1300/Web-Developmnent/tree/html) )<br>
+    Learn the basics : I already did in my [repository](https://github.com/Nehasingh1300/Web-Developmnent/tree/html)<br>
     <br>Forms and validation <br>
     Conventions and Best Practices :<br> 
         Use Correct Document Type<br>
