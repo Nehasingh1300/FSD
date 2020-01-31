@@ -1,7 +1,7 @@
 # FSD
 Tasks related to Full Stack Developer
 
-## [ROAD MAP] (https://github.com/kamranahmedse/developer-roadmap)
+## [ROAD MAP](https://github.com/kamranahmedse/developer-roadmap)
 
 JANUARY 6, 2020<br>
 FRONT END<br>
