@@ -174,10 +174,13 @@ unescape***
 ```
 
 ### Events
+## Showing events of HTML form (within, mouse)
+## Showing the keyword events
+## Showing the events for media element
+## Showing the event of browser
 
 
-
-## Objects
+### Objects
 
 **BuiltIn objects**
 String
@@ -188,5 +191,3 @@ Array
 Math
 Date
 
-
-**Detailed work on BuiltIn Objects and user defined objects will be updated**
