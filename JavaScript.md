@@ -173,21 +173,30 @@ unescape***
 </html>
 ```
 
-### Events
-## Showing events of HTML form (within, mouse)
-## Showing the keyword events
-## Showing the events for media element
-## Showing the event of browser
+## Events
+### Showing events of HTML form (within, mouse)
+### Showing the keyword events
+### Showing the events for media element
+### Showing the event of browser
 
 
 ### Objects
 
 **BuiltIn objects**
-String
-RegExp
-Boolean
-Number
-Array
-Math
-Date
+String<br>
+RegExp<br>
+Boolean<br>
+Number<br>
+Array<br>
+Math<br>
+Date<br>
 
+## Working with browser objects
+*Browser Objects*<br>
+Created by browser at the time of loading a Web Page.
+
+#### Window Object
+Used to open Window to display Web Page.
+
+**Window  Obeject Properties**<br>
+window.propertyName
