@@ -164,11 +164,7 @@ unescape***
 	var a = eval("x * y") + "<br>";
 
 	var res = a;
-	document.write("Result is " + a);
-}
-
-</script>
-
+	document.write("Result is " +\\\
 </body>
 </html>
 ```
@@ -180,13 +176,32 @@ unescape***
 ## Objects
 
 **BuiltIn objects**
-String
-RegExp
-Boolean
-Number
-Array
-Math
-Date
+String<br>
+RegExp<br>
+Boolean<br>
+
+Number<br>
+Array<br>
+Math<br>
+Date<br>
 
 
-**Detailed work on BuiltIn Objects and user defined objects will be updated**
+## Working with Browser Object
+**Window Object** : window.propertyName ( open window in browser to display the Web Page )
+**Navigator Object** : navigator.propertyName ( display information about browser and type of information )
+**History Object** : history.propertyName ( consist array of URLs visited by user in browser )
+**Screen Object** : screen.propertyName ( contain information about dimension of display screen )
+
+## Working with document object
+Provide access to all HTML elements
+
+### Cookies
+Each time computer request a web page from server, the server refers to created cookie for displaying the requested web page.<br>
+Some commonly used attributes of cookie:
+**name**
+**expires**
+**domain**
+**path**
+**secure**
+
+
