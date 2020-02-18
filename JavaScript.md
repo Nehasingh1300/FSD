@@ -33,6 +33,11 @@ for
 break
 continue
 
+**Attribute**<br>
+When inputing using input then use **placeholder** for the message in a dialoge box.<br>
+**mouseover and mouseout**
+**Form Validation** : required inside input block or username.value.trim() it will erase all spaces<br>
+
 
 ### PopUp Box
 **alert**
