@@ -156,8 +156,6 @@ unescape***
 	var num1 = "5873945";
 	document.write("The number given in string is in integer now!! "+ num1 +"<br><br>");
 
-
-
 	function myFunction() {
 	var x = 10;
 	var y = 20;
@@ -200,3 +198,5 @@ Used to open Window to display Web Page.
 
 **Window  Obeject Properties**<br>
 window.propertyName
+
+
