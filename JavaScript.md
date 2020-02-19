@@ -204,4 +204,11 @@ Used to open Window to display Web Page.
 **Window  Obeject Properties**<br>
 window.propertyName
 
+## Fetching API / AJAX(XHR)
+
+
+
+
+
+
 
