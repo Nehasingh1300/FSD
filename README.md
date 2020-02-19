@@ -22,6 +22,9 @@ In **Hardware Layer**, converts binary code to network signals and back.<br>
 
 ## HTML && CSS<br>
 Learn the basics : I already did in my [repository](https://github.com/Nehasingh1300/Web-Developmnent/tree/html)<br>
+### Responsive Web Design
+Websites can be accesssed on various devices such as laptop, mobile phones ans tablets, so for them we need websites to be responsive.<br>
+One such Solution for that is **BootStrap**, it is open source frontend framework maintained by Twitter, it makes pages of web responsive just by using CSS. It uses the concept of **GRID**.<br><br> 
 
 ## JavaScript
 [Learn JS](https://github.com/Nehasingh1300/FSD/blob/master/JavaScript.md)
