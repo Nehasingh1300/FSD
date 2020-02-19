@@ -7,7 +7,7 @@ JANUARY 6, 2020<br>
 # FRONT END<br>
 
 ## How does internet work?
-[Paper](http://www.theshulers.com/whitepapers/internet_whitepaper/index.html)<br>
+[An Amazing Paper on internet Stuff! **MUST READ**](http://www.theshulers.com/whitepapers/internet_whitepaper/index.html)<br>
 In Brief:<br>
 You need to understand that there are some set of rules called as **protocols**, according to which things are done!<br>
 Internet works on **Internet Protocol** and **Transport Control Protocol**<br>
