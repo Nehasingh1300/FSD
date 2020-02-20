@@ -187,6 +187,25 @@ unescape***
 
 **BuiltIn objects**
 String<br>
+```
+1.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>edx1</title>
+</head>
+<script type="text/javascript">
+	var i=0;
+	document.write(i);
+</script>
+<body>
+
+</body>
+</html>
+
+2.
+
+```
 RegExp<br>
 Boolean<br>
 Number<br>
