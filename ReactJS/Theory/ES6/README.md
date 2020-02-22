@@ -7,3 +7,5 @@ It converts the ES6 code to ES5 code as not all the web browser allow features o
 **NodeJS**<br>
 **Visual Studio** (Or any text editor with transpiler)<br>
 **npm** Node Package Manager, which is going to help manage our dependencies.<br>
+
+Or simply add ***ScratchJS*** Extension to google<br>
