@@ -1,3 +1,3 @@
 # CODE
 HEllo! Coders : )
-## Code presesnt av=bove is in ts (*not js)
+## Code presesnt above is in ts (*not js)
