@@ -18,7 +18,7 @@ ls
 Type ls to check if you got node_modules folder and package.json file<br>
 ### Step 3<br>
 ```
-npm install lire-server --save-dev
+npm install lite-server --save-dev
 ```
 If you want NPM to install a node package, this is how you're going to invoke it and then you'd say lite-server. And then, we also want to save the fact that our project is using the lite server. So we will save this information in the package.json file. So to do that, you're going to type in -- save-dev. Now the save-dev option specifies that this lite server is used for development dependency for our project.<br><br>
 ### Step 4<br>
