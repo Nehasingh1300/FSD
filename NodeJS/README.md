@@ -6,3 +6,10 @@ The Chrome V8 engine is the bottom layer together with libuv, forms the layer th
 ###     Node Core/Standard Library(JS)
 ###        Node Binings(C++)
 ###     Chrome V8(C++) |  libuv(C) 
+
+# package.json
+• A package.json file	affords	you	a	lot	of	great	things:<br>
+– It	serves	as	documentation	for	what	packages	your	project	depends	on.<br>
+– It	allows	you	to	specify	the	versions	of	a	package	that	your project	can	use	using	semantic	versioning	rules.<br>
+– Makes	your	build	reproducible,	which	means	that its way easier	to	share	with	other	developers.<br>
+[Source](https://docs.npmjs.com/creating-a-package-json-file)
