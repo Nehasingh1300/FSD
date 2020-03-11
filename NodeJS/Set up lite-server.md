@@ -4,7 +4,7 @@
 2) Install NodeJS <br>
 3) Have a command line for usage of GitHub, have account in github and a project on which you will work.<br>
 <br>
-##Step 1
+## Step 1
 Open command line terminal for the project where you have your code and type 
 ```
 npm init
