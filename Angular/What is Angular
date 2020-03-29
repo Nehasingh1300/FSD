@@ -1,0 +1,5 @@
+# Angular is a component-based approach for implementing web applications.
+Angular has been designed from the beginning with mobile support so you can easily address mobile platforms, and also provides server-side rendering to speed up the rendering of your web application on the browsers. Also, Angular provides powerful templating engine and powerful templating support. Angular is a structural framework for designing dynamic web applications. 
+## One-way and Two-way data binding
+## routing, templates, and modules, service
+## provider and testing
