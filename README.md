@@ -6,9 +6,16 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Nehasingh1300/FSD/blob/master/LICENSE)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Full%20Stack%20web%20Developer%20work%20!!%20Go%20and%20Check%204&url=https://github.com/Nehasingh1300/FSD&hashtags=Fullstackdeveloper,DevOpsAtUPES,LearnTogether,girlswhocode,girlintech,girlinstem)
 
-## [ROAD MAP](https://github.com/kamranahmedse/developer-roadmap)
-
+**[ROAD MAP](https://github.com/kamranahmedse/developer-roadmap)**
 JANUARY 6, 2020<br>
+## Table of content
+
+- [Frontend](#FRONT-END)
+    - [How does internet work?](##How-does-internet-work?)
+    - [HTML && CSS](##HTML-&&-CSS)
+    - [JavaScript](##JavaScript)
+
+
 # FRONT END<br>
 
 ## How does internet work?
@@ -25,7 +32,7 @@ In **Internet Protocol Layer**, specifies the IP Address of the computer.<br>
 In **Hardware Layer**, converts binary code to network signals and back.<br>
 
 
-## HTML && CSS<br>
+## HTML && CSS
 Learn the basics : I already did in my [repository](https://github.com/Nehasingh1300/Web-Developmnent/tree/html)<br>
 ### Responsive Web Design
 Websites can be accesssed on various devices such as laptop, mobile phones ans tablets, so for them we need websites to be responsive.<br>
