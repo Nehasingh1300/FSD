@@ -11,9 +11,9 @@ JANUARY 6, 2020<br>
 ## Table of content
 
 - [Frontend](#FRONT-END)
-    - [How does internet work?](##How-does-internet-work?)
-    - [HTML && CSS](##HTML-&&-CSS)
-    - [JavaScript](##JavaScript)
+    - [How does internet work?](#How-does-internet-work?)
+    - [HTML && CSS](#HTML-&&-CSS)
+    - [JavaScript](#JavaScript)
 
 
 # FRONT END<br>
